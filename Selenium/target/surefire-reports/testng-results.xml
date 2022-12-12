@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-11T21:49:23 PST" name="Suite" finished-at="2022-12-11T21:49:43 PST" duration-ms="19558">
+    <groups>
+    </groups>
+    <test started-at="2022-12-11T21:49:23 PST" name="PageObjectModelTest" finished-at="2022-12-11T21:49:43 PST" duration-ms="19558">
+      <class name="POMtest.LoginTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:POMtest.LoginTest@659499f1]" started-at="2022-12-11T21:49:24 PST" name="launchApp" finished-at="2022-12-11T21:49:28 PST" duration-ms="4130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyLogin()[pri:0, instance:POMtest.LoginTest@659499f1]" started-at="2022-12-11T21:49:28 PST" name="verifyLogin" finished-at="2022-12-11T21:49:38 PST" duration-ms="9903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:POMtest.LoginTest@659499f1]" started-at="2022-12-11T21:49:38 PST" name="closeApp" finished-at="2022-12-11T21:49:43 PST" duration-ms="5099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- POMtest.LoginTest -->
+    </test> <!-- PageObjectModelTest -->
+  </suite> <!-- Suite -->
+  <suite started-at="2022-12-11T21:49:43 PST" name="Suite (0)" finished-at="2022-12-11T21:49:59 PST" duration-ms="15134">
+    <groups>
+    </groups>
+    <test started-at="2022-12-11T21:49:43 PST" name="Test" finished-at="2022-12-11T21:49:59 PST" duration-ms="15134">
+      <class name="actionExample.actionDemo">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:actionExample.actionDemo@7b36aa0c]" started-at="2022-12-11T21:49:43 PST" name="launchApp" finished-at="2022-12-11T21:49:45 PST" duration-ms="1966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="rightClick()[pri:0, instance:actionExample.actionDemo@7b36aa0c]" started-at="2022-12-11T21:49:45 PST" name="rightClick" finished-at="2022-12-11T21:49:52 PST" duration-ms="6954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rightClick -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:actionExample.actionDemo@7b36aa0c]" started-at="2022-12-11T21:49:52 PST" name="closeApp" finished-at="2022-12-11T21:49:59 PST" duration-ms="6208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- actionExample.actionDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
