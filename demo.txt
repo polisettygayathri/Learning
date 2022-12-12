@@ -1,3 +1,4 @@
 add file
 del file
 count
+add new file
